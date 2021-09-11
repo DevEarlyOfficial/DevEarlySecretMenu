@@ -1,0 +1,17 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Maxgat5/UiLib/main/lua')))()
+local w = library:CreateWindow("DevEarly Secret")
+local u = w:CreateFolder("Crack")
+local b = w:CreateFolder("Notes")
+local x = w:CreateFolder("Credits")
+
+u:Button("Crack User Token",function()
+    setclipboard("137657136597139731947319567DEVEARLY478025")
+end)
+
+b:Label("crack user token=")
+b:Label("use Ctrl+V")
+
+x:Label("Made at:")
+x:Label("DevUnpacks")
+x:Label("Credits to:")
+x:Label("Nooby#0041")
